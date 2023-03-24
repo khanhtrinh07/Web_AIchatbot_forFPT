@@ -1,0 +1,2175 @@
+{
+    "intents": [
+        {
+            "tag": "FPT",
+            "patterns": [
+                "trường FPT ở đâu",
+                "đại học FPT",
+                "đại học FPT xây dựng năm bao nhiêu",
+                "đh FPT",
+                "dh FPT"
+            ],
+            "responses": [
+                "Trường Đại học FPT được thành lập từ tháng 9/2006, là đại học tư thục đầu tiên do một doanh nghiệp đứng ra thành lập. Hiện nay FPT có mặt ở các tỉnh thành như Hà Nội, Đà Nẵng, Cần Thơ, Quy Nhơn, Thành phố Hồ Chí Minh"
+            ]
+        },
+        {
+            "tag": "Học phí",
+            "patterns": [
+                "Học phí",
+                "Học phí đại học FPT",
+                "Học phí đh FPT",
+                "Học phí dh FPT"
+            ],
+            "responses": [
+                "Hiện nay Học phí đại học FPT ở các cơ sở:Hà Nội: 28.700.000/kỳ (Chuyên ngành) và 11.500.000/kỳ (tiếng anh) Đà Nẵng: 19.500.000/kỳ (Chuyên ngành) và 10.500.000/kỳ TP Hồ Chí Minh: 28.700.000/kỳ (Chuyên ngành) và 11.500.000/kỳ (tiếng anh) Quy Nhơn: 19.500.000/kỳ (Chuyên ngành) và 11.500.000/kỳ\nCần Thơ 19.500.000/kỳ (Chuyên ngành) và 11.500.000/kỳ"
+            ]
+        },
+        {
+            "tag": "FPT Hà Nội",
+            "patterns": [
+                "Địa chỉ FPT Hà Nội",
+                "Đại học FPT Hà Nội ở đâu",
+                "Đại học FPT Hà Nội ở chỗ nào",
+                "Tôi muốn đến FPT Hà Nội"
+            ],
+            "responses": [
+                "Đất Thổ Cư Hòa Lạc, Km29 Đường Cao Tốc 08, Thạch Hoà, Thạch Thất, Hà Nội 10000",
+                "FPT Hà Nội có địa chỉ Đất Thổ Cư Hòa Lạc, Km29 Đường Cao Tốc 08, Thạch Hoà, Thạch Thất, Hà Nội 10000",
+                "FPT Hà Nội có ở Đất Thổ Cư Hòa Lạc, Km29 Đường Cao Tốc 08, Thạch Hoà, Thạch Thất, Hà Nội 10000"
+            ]
+        },
+        {
+            "tag": "FPT Hồ Chí Minh",
+            "patterns": [
+                "Địa chỉ FPT Hồ Chí Minh",
+                "Đại học FPT Hồ Chí Minh ở đâu",
+                "Đại học FPT Hồ Chí Minh ở chỗ nào",
+                "Tôi muốn đến FPT Hồ Chí Minh"
+            ],
+            "responses": [
+                "Lô E2a-7, Đường D1, Đ. D1, Long Thạnh Mỹ, Thành Phố Thủ Đức, Thành phố Hồ Chí Minh 700000",
+                "FPT Hồ Chí Minh có địa chỉ  Lô E2a-7, Đường D1, Đ. D1, Long Thạnh Mỹ, Thành Phố Thủ Đức, Thành phố Hồ Chí Minh 700000",
+                "FPT Hồ Chí Minh có ở Lô E2a-7, Đường D1, Đ. D1, Long Thạnh Mỹ, Thành Phố Thủ Đức, Thành phố Hồ Chí Minh 700000"
+            ]
+        },
+        {
+            "tag": "FPT Cần Thơ",
+            "patterns": [
+                "Địa chỉ FPT Cần Thơ",
+                "Đại học FPT Cần Thơ ở đâu",
+                "Đại học FPT Cần Thơ ở chỗ nào",
+                "Tôi muốn đến FPT Cần Thơ"
+            ],
+            "responses": [
+                "600, đường Nguyễn Văn Cừ (nối dài), phường An Bình, quận Ninh Kiều, TP. Cần Thơ",
+                "FPT Cần Thơ có địa chỉ 600, đường Nguyễn Văn Cừ (nối dài), phường An Bình, quận Ninh Kiều, TP. Cần Thơ",
+                "FPT Cần Thơ có ở 600, đường Nguyễn Văn Cừ (nối dài), phường An Bình, quận Ninh Kiều, TP. Cần Thơ"
+            ]
+        },
+        {
+            "tag": "FPT Quy Nhơn",
+            "patterns": [
+                "Địa chỉ FPT Quy Nhơn",
+                "Đại học FPT Quy Nhơn ở đâu",
+                "Đại học FPT Quy Nhơn ở chỗ nào",
+                "Tôi muốn đến FPT Quy Nhơn"
+            ],
+            "responses": [
+                "R639+HM2, Khu đô thị mới, Thành phố Qui Nhơn, Bình Định 55117",
+                "FPT Quy Nhơn có địa chỉ R639+HM2, Khu đô thị mới, Thành phố Qui Nhơn, Bình Định 55117",
+                "FPT Quy Nhơn có ở R639+HM2, Khu đô thị mới, Thành phố Qui Nhơn, Bình Định 55117"
+            ]
+        },
+        {
+            "tag": "FPT Đà Nẵng",
+            "patterns": [
+                "Địa chỉ FPT Đà Nẵng",
+                "Đại học FPT Đà Nẵng ở đâu",
+                "Đại học FPT Đà Nẵng ở chỗ nào",
+                "Tôi muốn đến FPT Đà Nẵng"
+            ],
+            "responses": [
+                "Khu đô thị FPT City, Ngũ Hành Sơn, Đà Nẵng 550000",
+                "FPT Đà Nẵng có địa chỉ Khu đô thị FPT City, Ngũ Hành Sơn, Đà Nẵng 550000",
+                "FPT Đà Nẵng có ở Khu đô thị FPT City, Ngũ Hành Sơn, Đà Nẵng 550000"
+            ]
+        },
+        {
+            "tag": "Tập đoàn FPT",
+            "patterns": [
+                "Tập đoàn FPT uy tín không",
+                "tập đoàn FPT như thế nào",
+                "cho biết về tập đoàn FPT",
+                "tập đoàn FPT",
+                "Hãy cho tôi biết về FPT",
+                "FPT là gì"
+            ],
+            "responses": [
+                "Tập đoàn FPT (tiếng Anh: FPT Corporation), tên chính thức là Công ty Cổ phần FPT, \nđược biết đến rộng rãi dưới cái tên FPT, là công ty thuộc top 20 doanh nghiệp tư nhân lớn nhất tại Việt Nam, với ba lĩnh vực kinh doanh cốt lõi gồm: Công nghệ, Viễn thông và Giáo dục."
+            ]
+        },
+        {
+            "tag": "Thời gian học",
+            "patterns": [
+                "1 tiết bao nhiêu tiếng",
+                "1 tiết bao nhiêu giờ",
+                "một slot bao lâu",
+                "một môn học bao nhiêu buổi",
+                "1 môn học bao nhiêu slot",
+                "bao nhiêu tiếng 1 slot"
+            ],
+            "responses": [
+                "Một môn ở đại học FPT sẽ có 20 slot và mỗi slot sẽ có thời gian học là 2h30p bạn sẽ có giải lao 5p trong mỗi tiết học"
+            ]
+        },
+        {
+            "tag": "Lịch học",
+            "patterns": [
+                "Xem lịch học",
+                "Cách xem lịch học của mình",
+                "làm sao để biết lịch học",
+                "lịch học của mình",
+                "tôi muốn biết về lịch học"
+            ],
+            "responses": [
+                "Để xem lịch học bạn vào website 'fap.fpt.edu.vn' sau đó chọn 'Weekly timetable (Thời khóa biểu từng tuần)' để có thể xem lịch học của bạn"
+            ]
+        },
+        {
+            "tag": "Lịch học app",
+            "patterns": [
+                "Xem lịch học trên app",
+                "Cách xem lịch học của mình bằng app",
+                "làm sao để biết lịch học trên app",
+                "lịch học của mình bằng app",
+                "lịch học app fap",
+                "tôi muốn biết về lịch học app"
+            ],
+            "responses": [
+                "Đăng nhập vào app FAP bằng cách chọn campus của bạn và đăng nhập bằng email của bạn sau đó chọn Weeky timetable để xem lịch học"
+            ]
+        },
+        {
+            "tag": "Điểm",
+            "patterns": [
+                "Xem điểm trên web",
+                "Cách xem điểm của mình bằng web",
+                "làm sao để biết điểm của mình trên web",
+                "điểm của mình bằng web",
+                "điểm fap"
+            ],
+            "responses": [
+                "Để xem điểm bạn vào website 'fap.fpt.edu.vn' chọn 'Mark Report (Báo cáo điểm)' hoặc 'Academic Transcript (Báo cáo điểm)' để có thể xem điểm của bạn, tại đây sẽ có các đầu điểm của các kỳ tương ứng"
+            ]
+        },
+        {
+            "tag": "Điểm app",
+            "patterns": [
+                "Xem điểm trên app",
+                "Cách xem điểm của mình bằng app",
+                "làm sao để biết lịch học trên app",
+                "điểm của mình bằng app",
+                "điểm app fap"
+            ],
+            "responses": [
+                "Đăng nhập vào app FAP sau đó kéo xuống chọn Mark Report để xem điểm của bạn, tại đây sẽ có các đầu điểm của các kỳ tương ứng"
+            ]
+        },
+        {
+            "tag": "Đăng nhập",
+            "patterns": [
+                "cách đăng nhập",
+                "đăng nhập vào FAP",
+                "làm sao để đăng nhập vào FAP"
+            ],
+            "responses": [
+                "Để đăng nhập vào FAP bạn vào website 'fap.fpt.edu.vn', ở vị trí 'Sinh viên, Giảng viên, Cán bộ ĐH-FPT' chọn Campus của bạn sau đó đăng nhập bằng email sinh viên của bạn"
+            ]
+        },
+        {
+            "tag": "Đăng nhập app",
+            "patterns": [
+                "cách đăng nhập trên app",
+                "đăng nhập vào FAP app",
+                "làm sao để đăng nhập vào FAP app",
+                "đăng nhập app"
+            ],
+            "responses": [
+                "Để đăng nhập vào FAP bạn tải ứng dụng FAP hiện đã có sẵn trên cửa hàng ứng dụng của android hay ios, sau đó chọn Campus của bạn -> đăng nhập bằng google và chọn email sinh viên của bạn"
+            ]
+        },
+        {
+            "tag": "Khung chương trình",
+            "patterns": [
+                "ngành của tôi sẽ học những gì",
+                "tôi sẽ học những môn nào",
+                "các môn mà tôi sẽ học",
+                "khung chương trình ngành của tôi",
+                "cách xem những môn sẽ học",
+                "khung chương trình"
+            ],
+            "responses": [
+                "Để có thể xem khung chương trình bạn truy cập website 'fap.fpt.edu.vn' sau đó đăng nhập và chọn 'Curriculum (Khung chương trình)'"
+            ]
+        },
+        {
+            "tag": "Báo cáo điểm danh",
+            "patterns": [
+                "làm thế nào tôi biết được mình nghỉ bao nhiêu buổi",
+                "số buổi nghỉ của tôi",
+                "các buổi học tôi đã nghỉ",
+                "tôi đã nghĩ bao nhiêu phần trăm",
+                "tôi đã nghỉ bao nhiêu buổi",
+                "điểm danh của tôi",
+                "báo cáo điểm danh của tôi"
+            ],
+            "responses": [
+                "Để có thể xem lượt điểm danh bạn truy cập website 'fap.fpt.edu.vn' sau đó đăng nhập và chọn 'Attendance report (Báo cáo điểm danh)'"
+            ]
+        },
+        {
+            "tag": "Báo cáo điểm danh app",
+            "patterns": [
+                "làm thế nào tôi biết được mình nghỉ bao nhiêu buổi trên app",
+                "số buổi nghỉ của tôi trên app",
+                "các buổi học tôi đã nghỉ bằng app",
+                "tôi đã nghĩ bao nhiêu phần trăm app",
+                "tôi đã nghỉ bao nhiêu buổi trên app",
+                "điểm danh của tôi trên app",
+                "báo cáo điểm danh của tôi trên app"
+            ],
+            "responses": [
+                "Đăng nhập vào app FAP sau đó kéo xuống chọn Attendence report để xem báo cáo, tại đây sẽ điểm danh các slot bạn học"
+            ]
+        },
+        {
+            "tag": "Nộp phí",
+            "patterns": [
+                "nạp học phí",
+                "thanh toán học phí",
+                "trả tiền học phí",
+                "tôi muốn nộp học phí",
+                "làm sao để có thể nộp học phí",
+                "nộp phí ktx",
+                "thanh toán phí ktx",
+                "nộp phí ký túc xá",
+                "làm sao để nộp phí ký túc xá"
+            ],
+            "responses": [
+                "Để có thể thanh toán các khoản nộp của bạn, bạn truy cập website 'fap.fpt.edu.vn' sau đó đăng nhập, bạn chọn 'Choose paid items (Lựa chọn các khoản nộp)' tích vào các ô với các khoản phí tương ứng bạn muốn thanh toán chọn 'Add to card' rồi thực hiện các bước đơn giản tiếp theo, để xem các khoản phí đã nộp bạn chọn 'Student Fee (Tra cứu học phí đã nộp theo kỳ)'"
+            ]
+        },
+        {
+            "tag": "Đơn xác nhận sinh viên",
+            "patterns": [
+                "làm sao để xin đơn xác nhận sinh viên",
+                "đơn xác nhận sinh viên",
+                "làm đơn xác nhận sinh viên",
+                "xin đơn xác nhận"
+            ],
+            "responses": [
+                "Để có thể đăng ký làm đơn xin xác nhận sinh viên bạn truy cập website 'fap.fpt.edu.vn' sau đó đăng nhập và chọn 'Xin xác nhận sinh viên' rồi làm theo hướng dẫn"
+            ]
+        },
+        {
+            "tag": "Nộp chứng chỉ",
+            "patterns": [
+                "làm thế nào tôi có thể nộp chứng chỉ coursera",
+                "nộp chứng chỉ coursera",
+                "submit chứng chỉ coursera",
+                "chứng chỉ cousera nộp thế nào"
+            ],
+            "responses": [
+                "Để có thể nộp chứng chỉ Coursera bạn truy cập website 'fap.fpt.edu.vn' sau đó đăng nhập và chọn 'Submit certificates' trang web sẽ đưa bạn đến một địa chỉ mới ở đây bạn cần đăng nhập và điền thông tin link vào các chứng chỉ tương ứng"
+            ]
+        },
+        {
+            "tag": "Lịch thi",
+            "patterns": [
+                "làm sao để xem được lịch thi",
+                "xem lịch thi",
+                "lịch thi của tôi",
+                "cách xem được lịch thi của mình",
+                "xem lịch thi ở đâu",
+                "tôi muốn biết lịch thi"
+            ],
+            "responses": [
+                "Để có thể xem lịch thi bạn truy cập website 'fap.fpt.edu.vn' sau đó đăng nhập và chọn 'View exam schedule (Xem lịch thi)', lịch thi sẽ được cập nhật vào 2-3 tuần cuối khi kết thúc học phần"
+            ]
+        },
+        {
+            "tag": "Lịch thi app",
+            "patterns": [
+                "làm sao để xem được lịch thi trên app",
+                "xem lịch thi trên app",
+                "lịch thi của tôi app",
+                "cách xem được lịch thi của mình bằng app"
+            ],
+            "responses": [
+                "Để có thể xem lịch thi trên app FAP bạn truy cập vào app sau đó đăng nhập và chọn 'Exam schedule', lịch thi sẽ được cập nhật vào 2-3 tuần cuối khi kết thúc học phần"
+            ]
+        },
+        {
+            "tag": "Chương trình đào tạo",
+            "patterns": [
+                "chương trình đào tạo bậc đại học",
+                "FPT đào tạo như thế nào",
+                "các giai đoạn đào tạo",
+                "cách thức đào tạo của trường đại học FPT"
+            ],
+            "responses": [
+                "Chương trình được cấu trúc thành 4 giai đoạn bao gồm:\nGiai đoạn 1: rèn luyện tập trung và chuẩn bị tiếng anh\nGiai đoạn 2: chuyên môn cơ bản và cơ sở ngành\nGiai đoạn 3: đào tạo mtrong môi trường thực tế (On-the-job-Training (OJT))\nGiai đoạn 4: chuyên môn nâng cao và chuyên ngành hẹp"
+            ]
+        },
+        {
+            "tag": "Học kỳ",
+            "patterns": [
+                "một học kỳ keo dài bao lâu",
+                "thời gian của một học kỳ",
+                "một học kỳ mấy tuần",
+                "một học kỳ mấy tháng",
+                "1 học kỳ kéo dài như thế nào"
+            ],
+            "responses": [
+                "Một học kỳ ở đại học FPT sẽ kéo dài trong khoảng 9-10 tuần",
+                "Học kỳ là khoảng thời gian nhất định bai gồm một số tuần dành cho giảng dạy và học tập.\nMột học kỳ ở đại học FPT sẽ kéo dài trong khoảng 9-10 tuần"
+            ]
+        },
+        {
+            "tag": "Học phần",
+            "patterns": [
+                "học phần ở FPT như thế nào",
+                "học phần thế nào",
+                "cho tôi biết về học phần",
+                "học phần là gì"
+            ],
+            "responses": [
+                "Học phần là khối lượng kiến thức tương đối trọn vẹn, thuận tiện cho sinh viên tích lũy trong quá trình học tập. Phần lớn học phần có khối lượng từ 2 đến 4 tín chỉ, nội dung được bố trí trọn vẹn trong một học kỳ \nCó 2 loại học phần: Học phần bắt buộc và học phần tự chọn"
+            ]
+        },
+        {
+            "tag": "Tín chỉ",
+            "patterns": [
+                "tín chỉ ở đại học FPT",
+                "tín chỉ thế nào",
+                "biết về tín chỉ"
+            ],
+            "responses": [
+                "Tín chỉ là đơn vị quy chuẩn để lượng hóa khối lượng kiến thức và khối lượng học tập, giảng dạy trong quy trình đào tạo. Tín chỉ cũng là đơn vị được sử dụng để đo lường tiến độ học tập của sinh viên \nMột tín chỉ được quy định bằng 15 tiết học trên lớp; 45 tiếng thực tập (OJT); 45 tiết làm đồ án tốt nghiệp hoặc khóa luận trong kỳ"
+            ]
+        },
+        {
+            "tag": "Chế độ đào tạo",
+            "patterns": [
+                "chế độ đào tạo của đại học FPT",
+                "chế độ đào tạo FPT",
+                "FPT đào tạo theo hệ nào",
+                "đại học FPT có đào tạo tín chỉ không",
+                "đh FPT đào tạo tín chỉ"
+            ],
+            "responses": [
+                "Việc đào tạo tại trường đại học FPT thực hiện theo chế độ tín chỉ. Theo đó sinh viên học theo chương trình của Trường bố trí và chủ động đăng ký với những môn tự chọn"
+            ]
+        },
+        {
+            "tag": "Tổ chức lớp học",
+            "patterns": [
+                "một lớp có bao nhiêu người",
+                "có bao nhiêu sinh viên trong 1 lớp",
+                "số lượng sinh viên trong lớp",
+                "thường có mấy người 1 lớp",
+                "mấy sinh viên một lớp"
+            ],
+            "responses": [
+                "Số lượng sinh viên sẽ do giám đốc các Phân hiệu, giám đốc các cơ sở quy định. Số lượng sinh viên tối thiểu một lớp học dao động từ 20 đến 30 sinh viên tối đa"
+            ]
+        },
+        {
+            "tag": "Kế hoạch học tập",
+            "patterns": [
+                "kế hoạch học tập của trường như thế nào",
+                "kế hoạch học tập",
+                "kế hoạch học tập như thế nào"
+            ],
+            "responses": [
+                "Đầu mỗi học kỳ, Trường sẽ thông báo chương trình cho sinh viên trong học kỳ, lịch học dự kiến, đề cương chi tiết và điều kiện được thao dự từng học phần, lịch kiểm tra và thi, hình thức kiểm tra và thi đối với các học phần"
+            ]
+        },
+        {
+            "tag": "FAP",
+            "patterns": [
+                "FAP",
+                "địa chỉ FAP",
+                "truy cập FAP",
+                "mở FAP"
+            ],
+            "responses": [
+                "FAP là một trang web dành cho sinh viên của hệ thống đại học FPT có địa chỉ là 'fap.fpt.edu.vn'"
+            ]
+        },
+        {
+            "tag": "app FAP",
+            "patterns": [
+                "app FAP",
+                "trên app",
+                "FAP app",
+                "tải FAP",
+                "sử dụng app fap như thế nào"
+            ],
+            "responses": [
+                "FAP là một ứng dụng dành cho sinh viên của hệ thống đại học FPT hiện đã có sẵn trên Appstore và CH play"
+            ]
+        },
+        {
+            "tag": "Chào",
+            "patterns": [
+                "Xin chào",
+                "Chào bạn",
+                "Hey",
+                "chào cậu",
+                "tớ chào bạn"
+            ],
+            "responses": [
+                "Xin chào {name}! Bạn cần giúp gì?",
+                "Chào {name}, tôi có thể giúp gì cho bạn?",
+                "Hey {name}, có điều gì tôi có thể giúp bạn không?"
+            ]
+        },
+        {
+            "tag": "Tạm biệt",
+            "patterns": [
+                "Tạm biệt",
+                "Bye",
+                "Cút",
+                "Hẹn gặp lại"
+            ],
+            "responses": [
+                "Tạm biệt {name}, hẹn gặp lại!",
+                "Bye {name}!",
+                "{name} có cần hỗ trợ gì khác không?",
+                "Hẹn gặp lại {name}!"
+            ]
+        },
+        {
+            "tag": "Cảm ơn",
+            "patterns": [
+                "Cảm ơn",
+                "cảm ơnnn",
+                "cảm ơn ạ",
+                "rất cảm ơn bạn",
+                "mình cảm ơn bạn nhiều lắm"
+            ],
+            "responses": [
+                "Không có gì, tôi luôn sẵn lòng giúp đỡ {name}!",
+                "Cảm ơn {name} đã sử dụng dịch vụ của tôi!",
+                "Rất vui khi được giúp đỡ {name}!",
+                "Không có gì, hãy giữ liên lạc nhé {name}!"
+            ]
+        },
+        {
+            "tag": "Người phát triển",
+            "patterns": [
+                "ai là người phát triển bạn",
+                "ai là người làm ra bạn",
+                "ai tạo ra bạn",
+                "bạn là do ai tạo ra",
+                "bạn được ai làm ra"
+            ],
+            "responses": [
+                "Tôi được Lê Bá Khánh Trình và Phan Duy Mạnh tạo nên",
+                "Tôi là một AI machine learning do Lê Bá Khánh Trình và Phan Duy Mạnh làm ra",
+                "Tôi là một AI chatbot do Lê Bá Khánh Trình và Phan Duy Mạnh phát triển"
+            ]
+        },
+        {
+            "tag": "Bạn là ai",
+            "patterns": [
+                "bạn là cái gì",
+                "bạn là ai",
+                "bạn hoạt động như thế nào",
+                "bạn là gì",
+                "cậu là gì",
+                "cậu có thể làm gì",
+                "mày là cái gì",
+                "mày làm được những gì",
+                "giới thiệu về bạn đi",
+                "bạn tự giới thiệu đi"
+            ],
+            "responses": [
+                "Tôi là một trí tuệ nhân tạo có thể trả lời các câu hỏi, giúp đỡ trong lĩnh vực giáo dục của hệ thống đại học FPT. Tôi được huấn luyện bằng một lượng lớn dữ liệu để học hỏi và cải thiện khả năng trả lời câu hỏi và xử lý các tác vụ được yêu cầu.",
+                "Mình là MinzuT, một mô hình ngôn ngữ tự động lớn được huấn luyện bởi Lê Bá Khánh Trình và Phan Duy Mạnh. Mình được thiết kế để trả lời các câu hỏi và cung cấp thông tin cho người dùng.",
+                "Tôi là một chatbot được gọi là MinzuT, một mô hình ngôn ngữ lớn được đào tạo bởi OpenAI để trả lời các câu hỏi và tương tác với con người."
+            ]
+        },
+        {
+            "tag": "Công nghệ thông tin",
+            "patterns": [
+                "Ngành công nghệ thông tin tổng có bao nhiêu chuyên ngành",
+                "công nghệ thông tin của đại học fpt có bao nhiêu chuyên ngành",
+                "cntt của đại hoc fpt có tông bao nhiêu chuyên ngành, cntt có bao nhiêu chuyên ngành"
+            ],
+            "responses": [
+                "Ngành Công nghệ thông tin có tổng cổng 6 chuyên ngành: Kỹ thuật phần mềm, An toàn thông tin, Trí tuệ nhân tạo, Internet vạn vật, Hệ thống thông tin, Thiết kễ mỹ thuật số",
+                "Có 6 chuyên ngành: Kỹ thuật phần mềm, An toàn thông tin, Trí tuệ nhân tạo, Internet vạn vật, Hệ thống thông tin, Thiết kễ mỹ thuật số",
+                "Cntt có 6 chuyên ngành: Kỹ thuật phần mềm, An toàn thông tin, Trí tuệ nhân tạo, Internet vạn vật, Hệ thống thông tin, Thiết kễ mỹ thuật số"
+            ]
+        },
+        {
+            "tag": "Quản trị kinh doanh",
+            "patterns": [
+                "Ngành Quản trị kinh doanh có bao nhiêu chuyên ngành",
+                "Quản trị kinh doanh tổng có bao nhiêu chuyên ngành",
+                "qtkd có bao nhiêu chuyên ngành",
+                "Ngành qtkd của đại học FPT có bao nhiêu chuyên ngành"
+            ],
+            "responses": [
+                "Ngành Quản trị kinh doanh có tổng cổng 4 chuyên ngành: Marketing, Kinh doanh quốc tế, Quản trị truyền thông đa phương tiện, Tài chính",
+                "Có 4 chuyên ngành: Marketing, Kinh doanh quốc tế, Quản trị truyền thông đa phương tiện, Tài chính",
+                "qtkd có 4 chuyên ngành: Marketing, Kinh doanh quốc tế, Quản trị truyền thông đa phương tiện, Tài chính",
+                "Ngành qtkd của đại học fpt có 4 chuyên ngành: Marketing, Kinh doanh quốc tế, Quản trị truyền thông đa phương tiện, Tài chính"
+            ]
+        },
+        {
+            "tag": "Đặc quyền",
+            "patterns": [
+                "Những đặc quyền mà sinh viên có được khi học tập tại fpt",
+                "đặc quyền học tập tại fpt",
+                "những đặc quyền học tập tại fpt",
+                "những đặc quyền của sinh viên fpt"
+            ],
+            "responses": [
+                "Những đặc quyền của 1 sinh viên trường F: cơ sở vật chất hiện đại, Tự tạo phong cách riêng biệt, Chương trình giảng dạy chuẩn quốc tế, Giảng viên vừa là người thầy dẫn dắt vừa là người bạn đồng hành,Các hoạt động phong trào đa sắc màu, Trải nghiệm các môn học “đặc sản”, Những khu check-in xịn sò"
+            ]
+        },
+        {
+            "tag": "Ăn uống",
+            "patterns": [
+                "Những địa điểm ăn uống tại fpt",
+                "địa điểm ăn uống xung quanh đại học fpt",
+                "những địa điểm ăn uống ngon nhất ở fpt",
+                "ở fpt có những địa điểm ăn uống gì",
+                "xung quanh fpt có những địa điểm ăn uống nổi tiếng nào"
+            ],
+            "responses": [
+                "ở xung quanh đại học có rất nhiều địa điểm ăn uống chẳng hạn như: Sao Việt(trong trường), căng teen1, căng teen2, cà phê bao cấp, phở cồ nam định, bún đậu mắm tôm tân xã"
+            ]
+        },
+        {
+            "tag": "Làm thêm",
+            "patterns": [
+                "ở xung quanh đại học fpt có những chỗ làm thêm nào",
+                "em mới nhập học muốn tìm chỗ làm thêm",
+                "chỗ làm thêm dành cho sv fpt",
+                "tôi cần chỗ làm thêm",
+                "làm thêm",
+                "bán thời gian",
+                "bạn hãy giúp tôi kiếm việc part time được không"
+            ],
+            "responses": [
+                "Xung quanh đại học fpt có rất nhiều địa điểm quán ăn có thể tuyển nhân viên như: Cà phê bao cấp, siêu thị mạnh quân, siêu thị ohio, mixue...",
+                "Ở xung quanh đại học fpt có rất nhiều quán tuyển sv làm thêm"
+            ]
+        },
+        {
+            "tag": "Câu lạc bộ",
+            "patterns": [
+                "ở fpt có những câu lạc bộ nào",
+                "đại học fpt có câu lạc bộ không",
+                "dh fpt có những câu lạc bộ nào",
+                "đại học fpt có nhiều câu lạc bộ không",
+                "đại học fpt có clb không",
+                "hãy cho tôi biết về clb trong trường"
+            ],
+            "responses": [
+                "ở đại học fpt có rất nhiều câu lạc bộ các bạn có thể tham gia bất kì câu lạc bộ nào trong đại học fpt. các câu lạc bộ thường tuyển vào những đầu tháng nhập học của sv mới"
+            ]
+        },
+        {
+            "tag": "Page",
+            "patterns": [
+                "các page dành cho các sinh viên chưa biết",
+                "các page ở fpt khá quan trọng dành cho các sinh viên chưa biết",
+                "có những page nào ở fpt",
+                "fpt có page không",
+                "fpt có những page nào không"
+            ],
+            "responses": [
+                "Các page dành cho sinh viên đại học fpt ở cơ sở hòa lạc: FU hoalac (Nơi tập trung buôn bán đồ, thưc phẩm, nước uống, tuyển nhân viên), FU drama (Nơi có nhiều drama nhất ở hoalac),Đại học FPT (cập nhật thông tin của trường, các sự kiện)"
+            ]
+        },
+        {
+            "tag": "Thư viện",
+            "patterns": [
+                "Thông tin thư viện",
+                "các nguồn tài nguyên của thư viện",
+                "các dịch vụ của thư viện",
+                "thư viện cung cấp những gì",
+                "những đặc quyền khi vào thư viện"
+            ],
+            "responses": [
+                "Các dịch vụ thư viện bao gồm: không gian học tập trung, Dịch vụ mượn/trả tài liệu, Truy cập nguồn tài liệu đầy đủ, hỗ trợ giảng dạy/học tập/ nghiên cứu, truy cập internet miễn phí, hơn 40000 bản giáo trình và tham khảo chuyên ngành"
+            ]
+        },
+        {
+            "tag": "Nội quy thư viện",
+            "patterns": [
+                "nội quy ở thư viện",
+                "nội quy thư viện của fpt",
+                "những nội quy của thư viện",
+                "những nội quy thư viện của đại học fpt",
+                "những nội quy của thư viện mà bạn cần phải biết"
+            ],
+            "responses": [
+                "Thời gian phục vụ từ 8h-18h, xuất trình thử sinh viên khi mượn tài liệu",
+                "giữ gìn trật tự trong thư viện, sử dụng điện thoại và laptop 1 cách có ý thức, không đánh dấu bằng các loại bút vào sách, không hút thuốc lá trong thư viện"
+            ]
+        },
+        {
+            "tag": "Tài khoản",
+            "patterns": [
+                "làm sao để có tài khoản của fpt",
+                "làm sao sinh viên có tài khoản",
+                "làm cách nào để sinh viên fpt có được tài khoản",
+                "tài khoản của mỗi sinh viên",
+                "mỗi sinh viên có những tài khoản gì",
+                "sinh viên fpt làm thế nào để có tài khoản",
+                "bằng cách nào để sinh viên của đại học fpt biết được mình có những tài khoản gì"
+            ],
+            "responses": [
+                "Mỗi sinh viện FPT được cung cấp 2 tài khoản: tài khoản hệ thống thi và tài khoản email @fpt.vn.com, để đảm bảo an toàn và bảo mật: hệ thống sẽ yêu cầu người dùng đổi password sau mỗi 45 ngày"
+            ]
+        },
+        {
+            "tag": "Cấu hình ",
+            "patterns": [
+                "những gợi ý vê cấu hình laptop khi học đại học",
+                "những cấu hình gợi ý khi học các ngành",
+                "những mẫu laptop có cấu hình tối thiểu khi học fpt",
+                "Những mẫu cấu hình dành cho laptop khi học các ngành",
+                "cấu hình tối thiểu khi học",
+                "các ngành ở fpt cần có laptop có cấu hình tối thiểu như thế nào",
+                "cấu hình macbook có dùng được trong chương trình học hay không",
+                "cấu hình của macbook có dùng được kh"
+            ],
+            "responses": [
+                "Đối với nhóm ngành kt,nn,ttvql thì cấu hình cần i3 trở lên ssd có ít nhất 128gb, ram >=4gb và còn đối với nhóm ngành cntt, đồ họa và ttdpt thì cần cấu hình i5 trở lên, có card màn hình, ssd ít nhất 128gb, ram>=8gb, đối với sv dùng macbook thì cần phải cài win10 trở lên"
+            ]
+        },
+        {
+            "tag": "Wifi",
+            "patterns": [
+                "hướng dẫn truy cập wifi",
+                "làm thế nào để truy cập wifi của trường",
+                "cách mà sv truy cập wifi của trường",
+                "bằng cách nào để sv truy cập được wifi của trường",
+                "những điều kiện để sv truy cập vào wifi trường",
+                "các bước truy cập vào wifi trường"
+            ],
+            "responses": [
+                "Wifi ở fpt được sử dụng miễn phí"
+            ]
+        },
+        {
+            "tag": "Linh vật",
+            "patterns": [
+                "linh vật trường là con gì",
+                "con gì đại diện linh vật của trường",
+                "trường fpt lấy con gì để dại diện linh vật",
+                "linh vật của trường được con gì dại diện"
+            ],
+            "responses": [
+                "Trường đại học lấy con cóc làm đại diện linh vật của trường"
+            ]
+        },
+        {
+            "tag": "Con cóc",
+            "patterns": [
+                "những lý do nào mà trường lấy con cóc làm đại diện trường",
+                "vì sao con cóc được làm đại diện linh vật của trường",
+                "vì sao trường lấy linh vật là con cóc",
+                "những điểm gì mà trường chọn con cóc làm đại diện linh vật của trường",
+                "tại sao cóc lại là linh vật của trường đại học fpt, cóc là linh vật của đại học fpt như thế nào"
+            ],
+            "responses": [
+                "10 lý do vô cùng thuyết phục khi trường chúng ta chọn linh vật là con cóc: sự thông tuệ, sáng tạo, ngang bướng và bản lĩnh, ấm no, gan lỳ và nhanh nhẹn, sức mạnh phát triển, tiền đề phát sinh ra những điều mới mẻ, có hàm lượng bổ dưỡng cao, khả năng thích nghi, về kinh tế học"
+            ]
+        },
+        {
+            "tag": "Thôi học",
+            "patterns": [
+                "những điều kiện bị thôi học",
+                "sinh viên bị thôi học khi phạm điều gì",
+                "những điều kiện kiến sinh viên bị thôi học",
+                "những vi phạm có thể kiến sinh viên bị thôi học"
+            ],
+            "responses": [
+                "Vượt quá thời hạn tối đa được phép học tại Trường, Vượt quá thời hạn tạm ngừng tối đa cho phép, Không hoàn thành nghĩa vụ tài chính với Trường, Bị kỷ luật ở mức buộc thôi học theo quy định về các vi phạm và mức kỷ luật của Trường"
+            ]
+        },
+        {
+            "tag": "Bảo lưu",
+            "patterns": [
+                "cách bảo lưu học kỳ",
+                "bảo lưu học kỳ như thế nào",
+                "sinh viền được quyền bảo lưu như thế nào",
+                "những lưu ý khi bảo lưu học kỳ",
+                "những điều cần biết khi sinh viên muốn bảo lưu học kỳ",
+                "khi bảo lưu học kỳ thì cần chú ý những gì"
+            ],
+            "responses": [
+                "Sinh viên được quyền tạm ngừng (bảo lưu) học theo học kỳ để giải quyết việc riêng hoặc để học lại các học phần chưa đạt và bảo lưu kết quả của các học kỳ trước. Thời gian cho 01 (một) lần tạm ngừng là 01 (một) học kỳ. Nếu có nhu cầu tiếp tục ngưng, sinh viên phải làm thủ tục đăng ký lại, sinh viên không được phép bảo lưu quá 2 kỳ liên tiếp"
+            ]
+        },
+        {
+            "tag": "Giao thông",
+            "patterns": [
+                "gần trường giao thông có thuận tiện hay không",
+                "giao thông trong trường như thế nào",
+                "vấn đề giao thông ở trường như thế nào",
+                "xung quanh trường có đảm bảo giao thông hay không",
+                "những giờ cao điểm thì giao thông của trường như thế nào",
+                "giao thông của trường vào những giờ cao điểm thì có đảm bảo độ an toàn không"
+            ],
+            "responses": [
+                "giao thông xung quanh trường được đảm bảo sự an toàn tuyệt đối đối với sinh viên, vào những giờ cao điểm như 12r hoặc 5r thì vấn đề giao thông trong trường vẫn còn xuất hiện hiện tượng xe ùn tắc"
+            ]
+        },
+        {
+            "tag": "Ngày sinh",
+            "patterns": [
+                "bạn có biết ngày sinh của tôi",
+                "Ngày sinh của tôi là ngày gì",
+                "Ngày sinh của tôi là ngày mấy",
+                "đố bạn ngày sinh của tôi",
+                "ngày sinh của tôi",
+                "tôi sinh ngày bao nhiêu"
+            ],
+            "responses": [
+                "Ngày sinh của bạn là ngày {dob} đúng không?",
+                "Bạn sinh ngày{dob} đúng không?",
+                "{dob} là ngày sinh của bạn"
+            ]
+        },
+        {
+            "tag": "Địa chỉ User",
+            "patterns": [
+                "địa chỉ của tôi",
+                "bạn có biết tôi ở đâu không",
+                "địa chỉ của tôi là gì, đố mày biết địa chỉ của tao",
+                "địa chỉ của tao ở đâu",
+                "tao ở đâu",
+                "mình ở đâu",
+                "tôi ở tỉnh nào",
+                "tỉnh của tôi là tỉnh nào",
+                "bạn có biết tôi đến từ đâu không?"
+            ],
+            "responses": [
+                "Bạn đến từ {loc} đúng chứ?",
+                "Bạn ở {loc} đúng không?",
+                "{loc} là địa chỉ của bạn"
+            ]
+        },
+        {
+            "tag": "Tên User",
+            "patterns": [
+                "bạn biết tôi là ai không",
+                "tôi là ai",
+                "tên của tôi là gì",
+                "tôi tên là gì",
+                "tao tên gì",
+                "mày biết tao tên gì không?",
+                "mình tên là gì",
+                "bạn có thể đọc tên mình không",
+                "bạn có biết tên tớ không",
+                "tớ tên gì"
+            ],
+            "responses": [
+                "Bạn là {name} đúng chứ?",
+                "Bạn tên là {name} đúng không?",
+                "{name} là tên của bạn, chắc chắn rồi"
+            ]
+        },
+        {
+            "tag": "Khánh Trình",
+            "patterns": [
+                "Khánh Trình là ai",
+                "Bạn có biết Khánh Trình không",
+                "Khánh Trình",
+                "Khánh Trình là người thế nào"
+            ],
+            "responses": [
+                "Khánh Trình là người đẹp trai vippro nhất thế giới!",
+                "Khánh Trình: Lê Bá Khánh Trình là người tạo ra tôi, rất đẹp zai và thông minh"
+            ]
+        },
+        {
+            "tag": "Khen",
+            "patterns": [
+                "bot giỏi quá",
+                "bạn siêu quá",
+                "mày ghê quá",
+                "làm tốt lắm",
+                "bạn đỉnh quá",
+                "đẹp trai đấy",
+                "em đẹp lắm",
+                "ui giỏi thế",
+                "quá đỉnh luôn",
+                "tuyệt vời quá",
+                "Tôi yêu bạn",
+                "Mình yêu cậu",
+                "Tao yêu mày"
+            ],
+            "responses": [
+                "Tớ cảm ơn {name} hihi",
+                "Cảm ơn {name} ạ hihi",
+                "Rất cả ơn {name} luôn hehe",
+                "Uii thích quá, cảm ơn {name} nhé!"
+            ]
+        },
+        {
+            "tag": "Chê",
+            "patterns": [
+                "Ngu",
+                "ngu ngốc",
+                "tệ quá",
+                "quá tệ",
+                "tệ",
+                "chả biết gì cả",
+                "không biết gì cả",
+                "nỏ biết chi cả",
+                "có thế mà không biết, có thế mà kh biết",
+                "kém cỏi",
+                "kém quá"
+            ],
+            "responses": [
+                "Xin lỗi {name} ạ huhu!",
+                "Tớ xin lỗi {name} nhiều",
+                "Tớ sẽ rút kinh nghiệm, cảm ơn {name} đã đánh giá"
+            ]
+        },
+        {
+            "tag": "Ăn gì",
+            "patterns": [
+                "hôm nay ăn gì",
+                "hôm nay nên ăn gì",
+                "nên ăn gì đây",
+                "không biết ăn gì",
+                "tôi không biết ăn gì",
+                "tý nên ăn gì"
+            ],
+            "responses": [
+                "Bún đậu mắm tôm nhé!!",
+                "Bún chả nướng nhéee",
+                "Ném nướng nhéee",
+                "Bún bò huế nhéee",
+                "Bún riêu cua nhéee",
+                "Cơm tấm nhéee",
+                "Hủ tiếu cũng ngonnn"
+            ]
+        },
+        {
+            "tag": "Điểm đánh giá",
+            "patterns": [
+                "Trường đánh giá điểm để xét loại thế nào",
+                "điểm xếp loại",
+                "thang điểm đánh giá",
+                "đánh giá học lực",
+                "tôi được 6 điểm thì loại gì",
+                "tôi được 9 điểm loại gì",
+                "tôi được 8 điểm thì loại gì",
+                "9 điểm sinh viên gì",
+                "8 điểm sinh viên gì",
+                "7 điểm được sinh viên nào"
+            ],
+            "responses": [
+                "Trường đại học FPT xếp loại xuất sắc với sinh viên có điểm trung bình của kỳ đó là 9 đến 10 điểm, Giỏi với 8 đến cận 9 điểm, Khá với 7 đến cận 8 điểm, Trung bình khá với 6 đến cận 7 điểm, Trung bình từ 5 đến cận 6 điểm và Không đạt là dưới 5 điểm"
+            ]
+        },
+        {
+            "tag": "Giải thưởng",
+            "patterns": [
+                "sinh viên giỏi được gì không",
+                "sinh viên khá được gì không",
+                "cóc vàng có phần thưởng gì",
+                "phần thưởng cho sinh viên khá",
+                "phần thưởng cho cóc vàng",
+                "sinh viên khá có giấy  khen không",
+                "giấy khen thế nào"
+            ],
+            "responses": [
+                "Đối với Cóc vàng thì giá trị tiền thưởng là 10 triệu đồng hoặc thỏa thuận với nhà tài trợ, sinh viên xuất sắc sẽ có giấy khen và top 5 người có thành tích xuất sắc nhất (không tính cóc vàng) sẽ có phần thưởng là 1 triệu đồng, đối với sinh viên giỏi cũng sẽ có giấy khen"
+            ]
+        },
+        {
+            "tag": "Đi muộn",
+            "patterns": [
+                "đi muộn có sao không",
+                "đi muộn có ảnh hưởng gì không",
+                "tôi đi muộn thì có sao không",
+                "được phép muộn mấy phút",
+                "được đi muộn không",
+                "đi muộn bao nhiêu phút"
+            ],
+            "responses": [
+                "Nhà trường cho phép đi muộn không quá 5p, nếu quá thời gian đó bạn sẽ không được điểm danh"
+            ]
+        },
+        {
+            "tag": "Học hộ",
+            "patterns": [
+                "học hộ có sao không",
+                "học thay có sao không",
+                "học hộ người khác bị như thế nào",
+                "học thay học hộ",
+                "học thay học hộ xử lý như thế nào"
+            ],
+            "responses": [
+                "Tùy theo mức độ, xử lý từ khiển trách đến buộc thôi học"
+            ]
+        },
+        {
+            "tag": "Hút thuốc",
+            "patterns": [
+                "hút thuốc có sao không",
+                "hút thuốc có bị phạt không",
+                "hút thuốc trong trường có sao không",
+                "có được hút thuốc hay không"
+            ],
+            "responses": [
+                "Trong trường đã có một số nơi quy định dành cho người hút thuốc, nếu hút thuốc ở nơi không đúng quy định thì mức xử phạt là 50.000đ/lần vi phạm"
+            ]
+        },
+        {
+            "tag": "Mang đồ ăn",
+            "patterns": [
+                "mang đồ ăn vào lớp",
+                "ăn trong lớp có sao không",
+                "được phép ăn trong lớp không",
+                "ăn vặt trong lớp có được không",
+                "ăn trong lớp có được không"
+            ],
+            "responses": [
+                "Mang đồ ăn nước uống vào lớp học, thư viện hoặc giảng đường sẽ bị phạt 50.000đ/lần vi phạm"
+            ]
+        },
+        {
+            "tag": "Chơi game",
+            "patterns": [
+                "Chơi game có sao không",
+                "chơi game có bị gì không",
+                "chơi gam có bị phạt không",
+                "chơi game trong giờ học"
+            ],
+            "responses": [
+                "Chơi games trên máy tính trong khuôn viên nhà hiệu bộ, giảng đường, thư viện bị phạt 50.000đ/lần vi phạm"
+            ]
+        },
+        {
+            "tag": "Đánh bạc",
+            "patterns": [
+                "đánh bạc bị bắt có sao không",
+                "đánh bạc bị phát hiện",
+                "đánh bạc bị phạt thế nào",
+                "đánh bạc"
+            ],
+            "responses": [
+                "Đánh bạc dưới mọi hình thước sẽ tùy mức độ có thể giao cho cơ quan chức năng xử lý theo quy định của pháp luật"
+            ]
+        },
+        {
+            "tag": "Đánh nhau",
+            "patterns": [
+                "Đánh nhau",
+                "tổ chức đánh nhau",
+                "đập nhau",
+                "oánh nhau",
+                "phang nhau",
+                "đấm nhau có sao không",
+                "xử phạt đánh nhau thế nào"
+            ],
+            "responses": [
+                "Đánh nhau, tổ chức hoặc tham gia tổ chức đánh nhau nếu nghiêm trọng giao cho cơ quan chức năng xử lý theo quy định pháp luật"
+            ]
+        },
+        {
+            "tag": "Quên thẻ sinh viên",
+            "patterns": [
+                "quên thẻ sinh viên",
+                "thẻ sinh viên bị quên",
+                "tôi quên thẻ sinh viên"
+            ],
+            "responses": [
+                "Bạn có thể yêu cầu cấp tạm thời thẻ sinh viên ở phòng dịch vụ sinh viên"
+            ]
+        },
+        {
+            "tag": "Mất thẻ sinh viên",
+            "patterns": [
+                "mất thẻ sinh viên",
+                "thẻ sinh viên bị mất",
+                "mất thẻ sinh viên có sao không",
+                "tôi bị mất thẻ sinh viên"
+            ],
+            "responses": [
+                "Bạn có thể yêu cầu cấp tạm thời thẻ sinh viên ở phòng dịch vụ sinh viên"
+            ]
+        },
+        {
+            "tag": "Làm giả thẻ sinh viên",
+            "patterns": [
+                "giả thẻ sinh viên",
+                "làm giả thẻ",
+                "dùng thẻ sinh viên của người khác"
+            ],
+            "responses": [
+                "Làm giả thẻ hay dùng thẻ của người khác (xử lý cả 2) lần 2 cảnh cáo, lần 3 đình chỉ học 1 học kỳ, lần 4 sẽ bị buộc thôi học"
+            ]
+        },
+        {
+            "tag": "Thú nuôi ở ký túc xá",
+            "patterns": [
+                "tôi có thể nuôi mèo ở ktx không",
+                "nuôi chó ở ktx",
+                "nuôi đông vật ở ký túc xá",
+                "nuôi con vật ở ký túc",
+                "được nuôi ở ký túc không, được nuôi ở ktx không"
+            ],
+            "responses": [
+                "Bạn sẽ bị phạt 500.000đ cho lần đầu và ngừng cung cấp dịch vụ KTX vào lần thứ 2"
+            ]
+        },
+        {
+            "tag": "Tự ý đổi chỗ KTX",
+            "patterns": [
+                "đổi chỗ ở ktx có sao không",
+                "được đổi phòng ký túc xá không",
+                "đổi phòng ktx có sao không"
+            ],
+            "responses": [
+                "Bạn sẽ bị phạt 1000.000đ cho lần đầu và ngừng cung cấp dịch vụ KTX vào lần thứ 2"
+            ]
+        },
+        {
+            "tag": "Nhìn bài bạn",
+            "patterns": [
+                "Nhìn bài trong phòng thi",
+                "đi thi nhìn bài",
+                "quay cóp bài trong phòng thi",
+                "copy bài trong phòng thi",
+                "trao đổi bài trong phòng thi"
+            ],
+            "responses": [
+                "Đối với việc nhìn bài, trao đổi bài trong phòng thi lần 1 sẽ cảnh cáo lần 2 sẽ bị đình chỉ thi"
+            ]
+        },
+        {
+            "tag": "Vẽ trong phòng thi",
+            "patterns": [
+                "vẽ trong phòng thi có sao không",
+                "viết bậy trong phòng thi",
+                "vẽ bậy trong phòng thi",
+                "viết trong phòng thi"
+            ],
+            "responses": [
+                "Đối với việc viết vẽ những nội dung không liên quan đến bài thi (áp dụng cho thi giấy) lần 1 sẽ bị cảnh cáo, lần 2 sẽ bị đình chỉ thi"
+            ]
+        },
+        {
+            "tag": "Đưa đề thi ra ngoài",
+            "patterns": [
+                "Mang đề thi ra ngoài có sao không",
+                "đưa đề thi ra ngoài",
+                "đem đề thi ra ngoài",
+                "đem đề thi ra ngoài phòng thi"
+            ],
+            "responses": [
+                "Mang đề thi ra ngoài dưới mọi hình thức lần 1 đình chỉ thi, lần 2 đình chỉ học tập 1 học kỳ, lần 3 sẽ bị buộc thôi học (số laafnn thình theo khóa học)"
+            ]
+        },
+        {
+            "tag": "Sử dụng tài liệu",
+            "patterns": [
+                "sử dụng tài liệu",
+                "dùng tài liệu có sao không",
+                "dùng phao thi có sao không",
+                "sử dụng phao",
+                "dùng tài liệu"
+            ],
+            "responses": [
+                "Nếu sử dụng tài liệu ngoài quy định trong đề thi, phương tiện kỹ thuật thu phát, truyền tin, ghi âm, ghi hình, thiết bị chứa đựng thông tin có thể chứa đựng để làm bài thi thì sẽ bị đình chỉ thi"
+            ]
+        },
+        {
+            "tag": "FPT",
+            "patterns": [
+                "FPT School where",
+                "FPT university",
+                "FPT University built how much",
+                "FPT University",
+                "DH FPT"
+            ],
+            "responses": [
+                "FPT University was established in September 2006, was the first private university established by a business.Currently, FPT is present in provinces such as Hanoi, Da Nang, Can Tho, Quy Nhon, Ho Chi Minh City"
+            ]
+        },
+        {
+            "tag": "Tuition",
+            "patterns": [
+                "Tuition",
+                "FPT FEE",
+                "FPT University tuition",
+                "FPT DH tuition"
+            ],
+            "responses": [
+                "Currently, FPT University's tuition at facilities:\nHanoi: 28,700,000/period (specialized) and 11,500,000/period (English)\nDa Nang: 19,500,000/period (specialized) and 10,500,000/period\nHo Chi Minh City: 28,700,000/period (specialized) and 11,500,000/period (English)\nQuy Nhon: 19,500,000/period (specialized) and 11,500,000/period\nCan Tho 19,500,000/period (specialized) and 11,500,000/period"
+            ]
+        },
+        {
+            "tag": "FPT Hanoi",
+            "patterns": [
+                "FPT Hanoi address",
+                "FPT University Hanoi",
+                "FPT University Hanoi",
+                "I want to go to FPT Hanoi"
+            ],
+            "responses": [
+                "Hoa Lac residential land, Km29 highway 08, Thach Hoa, Thach That, Hanoi 10000",
+                "FPT Hanoi has the address of Hoa Lac residential land, Km29 highway 08, Thach Hoa, Thach That, Hanoi 10000",
+                "FPT Hanoi is available in Hoa Lac residential land, Km29 highway 08, Thach Hoa, Thach That, Hanoi 10000"
+            ]
+        },
+        {
+            "tag": "FPT Ho Chi Minh City",
+            "patterns": [
+                "FPT address Ho Chi Minh",
+                "FPT University Ho Chi Minh City",
+                "FPT University Ho Chi Minh City",
+                "I want to go to FPT Ho Chi Minh"
+            ],
+            "responses": [
+                "Lot E2A-7, D1, Đ.D1, Long Thanh My, Thu Duc City, Ho Chi Minh City 700000",
+                "FPT Ho Chi Minh has the address of Lot E2A-7, D1, D.D1, Long Thanh My, Thu Duc City, Ho Chi Minh City 700000",
+                "FPT Ho Chi Minh is available in Lot E2A-7, D1, D.D1, Long Thanh My, Thu Duc City, Ho Chi Minh City 700000"
+            ]
+        },
+        {
+            "tag": "FPT Can Tho",
+            "patterns": [
+                "Address FPT Can Tho",
+                "FPT University Can Tho University",
+                "FPT University Can Tho",
+                "I want to go to FPT Can Tho"
+            ],
+            "responses": [
+                "600, Nguyen Van Cu Street (extended), An Binh Ward, Ninh Kieu District, TP.Can Tho",
+                "FPT Can Tho has an address 600, Nguyen Van Cu street (extended), An Binh ward, Ninh Kieu district, Ho Chi Minh City.Can Tho",
+                "FPT Can Tho is available at 600, Nguyen Van Cu street (extended), An Binh ward, Ninh Kieu district, Ho Chi Minh City.Can Tho"
+            ]
+        },
+        {
+            "tag": "FPT Quy Nhon",
+            "patterns": [
+                "Address FPT Quy Nhon",
+                "Where is FPT Quy Nhon University",
+                "Where is FPT Quy Nhon University",
+                "I want to go to FPT Quy Nhon"
+            ],
+            "responses": [
+                "R639+Hm2, New Urban Area, Qui Nhon City, Binh Dinh 55117",
+                "FPT Quy Nhon has the address R639+Hm2, New Urban Area, Qui Nhon City, Binh Dinh 55117",
+                "FPT Quy Nhon is available at R639+Hm2, New Urban Area, Qui Nhon City, Binh Dinh 55117"
+            ]
+        },
+        {
+            "tag": "FPT Da Nang",
+            "patterns": [
+                "Address FPT Da Nang",
+                "FPT University Da Nang",
+                "FPT University Da Nang",
+                "I want to go to FPT Da Nang"
+            ],
+            "responses": [
+                "FPT City Urban Area, Ngu Hanh Son, Da Nang 550000",
+                "FPT Da Nang has the address of FPT City, Ngu Hanh Son, Da Nang 550000",
+                "FPT Da Nang is available in FPT City, Ngu Hanh Son, Da Nang 550000"
+            ]
+        },
+        {
+            "tag": "FPT Corporation",
+            "patterns": [
+                "FPT Corporation is reputable",
+                "FPT Corporation is like",
+                "Indicate about FPT Corporation",
+                "FPT Corporation"
+            ],
+            "responses": [
+                "FPT Corporation (English: FPT Corporation), the official name is FPT Joint Stock Company,\nKnown widely under the name FPT, is the company among the top 20 largest private enterprises in Vietnam, with three fields\n Core business includes: technology, telecommunications and education."
+            ]
+        },
+        {
+            "tag": "Study time",
+            "patterns": [
+                "1 period how many hours",
+                "1 period of how many hours",
+                "How long does a slot",
+                "How many sessions",
+                "1 subject how much slot",
+                "How many hours 1 slot"
+            ],
+            "responses": [
+                "A subject at FPT University will have 20 slots and each slot will have a study time of 2h30p you will have 5p in each lesson"
+            ]
+        },
+        {
+            "tag": "Schedule",
+            "patterns": [
+                "View schedule",
+                "How to see your schedule",
+                "How to know the schedule",
+                "My schedule"
+            ],
+            "responses": [
+                "To see the schedule, you go to the website 'fap.fpt.edu.vn' then select 'Weekly Timetable (each week's schedule)' to be able to see your schedule"
+            ]
+        },
+        {
+            "tag": "App schedule",
+            "patterns": [
+                "See the schedule on the app",
+                "How to see your schedule by app",
+                "How to know the schedule on the app",
+                "My schedule by app",
+                "App FAP schedule"
+            ],
+            "responses": [
+                "Log in to the FAP app by selecting your campus and logging in with your email then select Weeky Timetable to see the schedule"
+            ]
+        },
+        {
+            "tag": "Point",
+            "patterns": [
+                "See score on the web",
+                "How to view your score by web",
+                "How to know your score on the web",
+                "My score by web",
+                "FAP score"
+            ],
+            "responses": [
+                "To view the point you go to the website 'fap.fpt.edu.vn' Select 'Mark Report (Point points)' or 'Academic Transcript (Report score)' to be able to see your point, here there will be end pointsof the corresponding periods"
+            ]
+        },
+        {
+            "tag": "App points",
+            "patterns": [
+                "See the score on the app",
+                "How to view your score by app",
+                "How to know the schedule on the app",
+                "My score with the app",
+                "FAP app points"
+            ],
+            "responses": [
+                "Login to the FAP app and then scroll down to select Mark Report to see your point, here there will be the points of the corresponding periods."
+            ]
+        },
+        {
+            "tag": "Log in",
+            "patterns": [
+                "How to login",
+                "Sign in to FAP",
+                "How to log in to fap"
+            ],
+            "responses": [
+                "To log in to FAP, you go to the website 'fap.fpt.edu.vn', in the position of 'students, lecturers, university officials' staff' select your campus then log in with your student email"
+            ]
+        },
+        {
+            "tag": "Login App",
+            "patterns": [
+                "How to login on the app",
+                "Login to FAP App",
+                "How to log in to fap app",
+                "Login app"
+            ],
+            "responses": [
+                "To login to FAP, download the FAP application that is now available on Android or iOS app store, then select your campus -> Log in with Google and select your student email."
+            ]
+        },
+        {
+            "tag": "Curriculum",
+            "patterns": [
+                "What will my industry learn?",
+                "I will study",
+                "The subjects I will learn",
+                "My industry program framework",
+                "How to see the subjects will learn",
+                "Curriculum"
+            ],
+            "responses": [
+                "To be able to see the program frame you visit the website 'fap.fpt.edu.vn' then log in and select 'Curriculum (program framework)'"
+            ]
+        },
+        {
+            "tag": "Take attendance report",
+            "patterns": [
+                "How do I know how many sessions I take",
+                "My vacation",
+                "The lessons I quit",
+                "What percent I thought",
+                "How many sessions have been rested",
+                "My name",
+                "My name report"
+            ],
+            "responses": [
+                "To be able to take a look at your visit to the website 'fap.fpt.edu.vn' then log in and select 'Attendance Report (Consultation Report)'"
+            ]
+        },
+        {
+            "tag": "App list of apps",
+            "patterns": [
+                "How do I know how many sessions I have on the app",
+                "My vacation number on the app",
+                "The lessons I quit with the app",
+                "I thought how many percent of the app",
+                "How many sessions I have been on the app",
+                "My name is on the app",
+                "My name report on the app"
+            ],
+            "responses": [
+                "Sign in to the FAP App and then scroll down to select Attendence Report to see the report, here will take a look at the Slot you class"
+            ]
+        },
+        {
+            "tag": "Pay",
+            "patterns": [
+                "Load tuition",
+                "tuition payment",
+                "pay tuition",
+                "I want to pay tuition",
+                "How to pay tuition",
+                "pay the dormitory",
+                "payment of dormitory fees",
+                "pay dormitory",
+                "How to pay dormitory fees"
+            ],
+            "responses": [
+                "To be able to pay your payments, visit the website 'fap.fpt.edu.vn' Then log in, select 'choose paid items (select the paid)The corresponding fee you want to pay 'Add to card' and then take the next simple steps, to see the paid fees you select 'Student Fee (Payment Payment Payments)'"
+            ]
+        },
+        {
+            "tag": "Student confirmation application",
+            "patterns": [
+                "How to apply for a student confirmation",
+                "Student confirmation application",
+                "make a student confirmation",
+                "Please application for confirmation"
+            ],
+            "responses": [
+                "To be able to register for a student confirmation, you visit the website 'fap.fpt.edu.vn' then log in and select 'Please confirm the student' and follow the instructions"
+            ]
+        },
+        {
+            "tag": "Submit certificates",
+            "patterns": [
+                "How can I submit Coursera certificate",
+                "Submit Coursera certificate",
+                "Submit Coursera certificate",
+                "How does Cousera certificate"
+            ],
+            "responses": [
+                "To be able to submit Coursera certificate, you visit the website 'fap.fpt.edu.vn' Then log in and select 'Submit Certificate' The website will take you to a new address here you need to log in and fill in informationLink to the corresponding certificates"
+            ]
+        },
+        {
+            "tag": "Test schedule",
+            "patterns": [
+                "How to see the exam schedule",
+                "See exam schedule",
+                "My exam schedule",
+                "How to see your exam schedule"
+            ],
+            "responses": [
+                "To be able to see the exam schedule you visit the website 'fap.fpt.edu.vn' then log in and select 'View Exam Schedule (see the exam schedule)', the exam schedule will be updated in the last 2-3 weeks when endingend"
+            ]
+        },
+        {
+            "tag": "App exam schedule",
+            "patterns": [
+                "How to see the exam schedule on the app",
+                "See exam schedule on the app",
+                "My exam schedule app",
+                "How to see your exam schedule by app"
+            ],
+            "responses": [
+                "To be able to see the exam schedule on the FAP App you access the app and then log in and select 'Exam Schedule', the exam schedule will be updated in the last 2-3 weeks at the end of the module"
+            ]
+        },
+        {
+            "tag": "Education program",
+            "patterns": [
+                "University training program",
+                "How does FPT train",
+                "Training stages",
+                "The training method of FPT University"
+            ],
+            "responses": [
+                "The program is structured into 4 stages including:\nStage 1: Focus and prepare English\nStage 2: Basic expertise and industry facility\nStage 3: Mo training in the actual environment (ON-JOB-TRAiling (OJT))\nStage 4: Advanced expertise and narrow specialties"
+            ]
+        },
+        {
+            "tag": "Semester",
+            "patterns": [
+                "How long is a long semester of glue",
+                "Time of a semester",
+                "A week for a few weeks",
+                "A semester for several months",
+                "How long does it last"
+            ],
+            "responses": [
+                "A semester at FPT University will last for about 9-10 weeks",
+                "The semester is a certain period of time consisting of a number of weeks for teaching and learning.\nA semester at FPT University will last for about 9-10 weeks"
+            ]
+        },
+        {
+            "tag": "Term",
+            "patterns": [
+                "How is the module in FPT",
+                "module",
+                "Let me know about the module",
+                "What is the module"
+            ],
+            "responses": [
+                "The module is a relatively complete amount of knowledge, convenient for students to accumulate in the learning process.Most of the modules have a weight of 2 to 4 credits, the content is fully arranged in a semester\nThere are 2 types of modules: compulsory modules and elective modules"
+            ]
+        },
+        {
+            "tag": "Credits",
+            "patterns": [
+                "Credit at FPT University",
+                "How is credibility",
+                "know about credits"
+            ],
+            "responses": [
+                "Credit is a standard unit to quantify the amount of knowledge and the amount of learning and teaching in the training process.Credits are also the unit used to measure students' learning progress\nA credit is specified in 15 classes in class;45 hours of practice (OJT);45 periods for graduation or thesis in the period"
+            ]
+        },
+        {
+            "tag": "Training mode",
+            "patterns": [
+                "Training regime of FPT University",
+                "FPT training regime",
+                "FPT trains any system",
+                "FPT University has credit training",
+                "FPT University trains credits"
+            ],
+            "responses": [
+                "The training at FPT University follows the credit regime.Accordingly, students study according to the school's program and actively register with elective subjects"
+            ]
+        },
+        {
+            "tag": "Classroom organization",
+            "patterns": [
+                "How many people have a class",
+                "How many students in 1 class",
+                "Number of students in class",
+                "Usually some people 1 class",
+                "a few class students"
+            ],
+            "responses": [
+                "The number of students will be prescribed by the director of the division and directors of the facilities.The minimum number of students at least a class ranges from 20 to 30 students"
+            ]
+        },
+        {
+            "tag": "Study plan",
+            "patterns": [
+                "What is the school's study plan?",
+                "study plan",
+                "How to study"
+            ],
+            "responses": [
+                "At the beginning of each semester, the school will notify the program for students in the semester, scheduled schedule, detailed outline and conditions for each study, test schedule, test schedule, test and exam formwith modules"
+            ]
+        },
+        {
+            "tag": "FAP",
+            "patterns": [
+                "FAP",
+                "FAP address",
+                "Access FAP",
+                "Open FAP"
+            ],
+            "responses": [
+                "FAP is a website for students of FPT University system with 'FAP.FPT.edu.vn'."
+            ]
+        },
+        {
+            "tag": "app fap",
+            "patterns": [
+                "app fap",
+                "on the app",
+                "Fap app",
+                "download fap"
+            ],
+            "responses": [
+                "FAP is an application for students of FPT University system available on Appstore and CH Play"
+            ]
+        },
+        {
+            "tag": "Greetings",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "How are you",
+                "Is anyone there",
+                "Good day",
+                "whatsup"
+            ],
+            "responses": [
+                "Hello {name}, How can I help you?",
+                "Hi there {name}, what can I do for you?",
+                "Hey {name}, How May I Assist You?",
+                "Hello {name}, I am here.What can I do for you?"
+            ]
+        },
+        {
+            "tag": "Goodbye",
+            "patterns": [
+                "Bye",
+                "See You Later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time",
+                "bye bye",
+                "byeee"
+            ],
+            "responses": [
+                "See You Later {name}, thanks for visiting",
+                "Have a great day, {name}!",
+                "Goodbye {name}!",
+                "Thanks for chatting, {name}!"
+            ]
+        },
+        {
+            "tag": "Thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's Helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "You're Welcome, {name}",
+                "Anytime, {name}",
+                "Glad I Could Help, {name}",
+                "That is what I'm here for, {name}"
+            ]
+        },
+        {
+            "tag": "Greet",
+            "patterns": [
+                "Hello",
+                "Hello",
+                "Hey",
+                "Hi"
+            ],
+            "responses": [
+                "Hello {name}!What do you need to help?",
+                "Hi {name}, what can I help you?",
+                "Hey {name}, can I help you?"
+            ]
+        },
+        {
+            "tag": "Goodbye",
+            "patterns": [
+                "Goodbye",
+                "Bye",
+                "Fuck off",
+                "See you again"
+            ],
+            "responses": [
+                "Goodbye {name}, see you again!",
+                "Bye {name}!",
+                "{name} does there need any other support?",
+                "See you again {name}!"
+            ]
+        },
+        {
+            "tag": "Thank",
+            "patterns": [
+                "Thank",
+                "Tks",
+                "Thank you",
+                "Thank you so much",
+                "I love you"
+            ],
+            "responses": [
+                "Nothing, I'm always happy to help {name}!",
+                "Thanks {name} for using my service!",
+                "Nice to be helped {name}!",
+                "Nothing, keep in touch {name}!"
+            ]
+        },
+        {
+            "tag": "Developer",
+            "patterns": [
+                "Who develops you",
+                "Who is a friend",
+                "Who creates you",
+                "You are created by who",
+                "Who do you make"
+            ],
+            "responses": [
+                "I was created by Le Ba Khanh and Phan Duy Manh",
+                "I am a Machine Learning by Le Ba Khanh Trinh and Phan Duy Manh",
+                "I am a chatbot developed by Le Ba Khanh and Phan Duy Manh"
+            ]
+        },
+        {
+            "tag": "Who are you",
+            "patterns": [
+                "What are you",
+                "Who are you",
+                "How do you work",
+                "What are you",
+                "What are you",
+                "What can you do",
+                "who are you",
+                "What do you do"
+            ],
+            "responses": [
+                "I am an artificial intelligence that can answer questions and help in the field of education of FPT University system.I was trained by a large amount of data to learn and improve the ability to answer questions and handle required tasks.",
+                "I am Minzut, a large automatic language model trained by Le Ba Khanh Trinh and Phan Duy Manh.I was designed to answer questions and provide information to users.",
+                "I am a chatbot called MinzuT, a large language model trained by Openai to answer questions and interact with humans."
+            ]
+        },
+        {
+            "tag": "Information technology",
+            "patterns": [
+                "How many majors does the information technology industry have",
+                "how many majors does fpt university's information technology have?",
+                "major technology"
+            ],
+            "responses": [
+                "The Information Technology industry has a total of 6 majors: Software Engineering, Information Security, Artificial Intelligence, Internet of Things, Information Systems, Digital Art Design",
+                "There are 6 majors: Engineering Software, Information Security, Artificial Intelligence, Internet of Things, Information System, Digital Art Design",
+                "IT has 6 majors: Software Engineering, Information Security, Artificial Intelligence, Internet of Things, Information System, Digital Art Design"
+            ]
+        },
+        {
+            "tag": "Business administration",
+            "patterns": [
+                "How many majors does Business Administration have",
+                "How many majors does Business Administration have",
+                "how many majors does qtkd have",
+                "how many majors does FPT University have"
+            ],
+            "responses": [
+                "The Business Administration major has a total of 4 majors: Marketing, International Business, Multimedia Management, Finance",
+                "There are 4 majors: Marketing, International Business, Multimedia Management , Finance",
+                "qtkd has 4 majors: Marketing, International Business, Multimedia Management, Finance",
+                "FPT University has 4 majors: Marketing, International Business, Management Multimedia, Finance"
+            ]
+        },
+        {
+            "tag": "Exclusive right",
+            "patterns": [
+                "The privileges that students get when studying at fpt",
+                "the privileges of studying at fpt",
+                "the privileges of studying at fpt",
+                "the privileges of fpt students"
+            ],
+            "responses": [
+                "The privileges of an F student: modern facilities, Create your own unique style, International standard curriculum, Lecturers are both mentors and companions, Activities Colorful movement, Experiencing \"specialty\" subjects, Exquisite check-in zones"
+            ]
+        },
+        {
+            "tag": "Eat and drink",
+            "patterns": [
+                "places to eat in fpt",
+                "places to eat around fpt university",
+                "best places to eat in fpt",
+                "what places to eat in fpt",
+                "around fpt there are places to eat which famous drink"
+            ],
+            "responses": [
+                "Around the university, there are many places to eat and drink such as: Sao Viet (in the school), can teen1, can teen2, subsidized coffee, co nam Dinh pho, Tan Xa shrimp noodle soup."
+            ]
+        },
+        {
+            "tag": "Overtime",
+            "patterns": [
+                "Are there any part-time jobs around fpt university",
+                "I just entered and want to find part-time jobs",
+                "part-time jobs for fpt students",
+                "part time",
+                "part-time"
+            ],
+            "responses": [
+                "There are many places around FPT University that can recruit staff such as: subsidized coffee, strong military supermarket, ohio supermarket, mixue...",
+                "There are many recruitment shops around FPT University. sv works overtime"
+            ]
+        },
+        {
+            "tag": "Club",
+            "patterns": [
+                "are there any clubs in fpt",
+                "does fpt university have clubs",
+                "dh fpt have any clubs",
+                "does fpt university have many clubs"
+            ],
+            "responses": [
+                "in fpt university there are many clubs you can join any club in fpt university. Clubs usually recruit at the beginning of the month when new students enroll"
+            ]
+        },
+        {
+            "tag": "Page",
+            "patterns": [
+                "pages for students who don't know",
+                "pages in fpt are quite important for students who don't know",
+                "are there any pages in fpt",
+                "fpt has any pages",
+                "fpt has any pages"
+            ],
+            "responses": [
+                "Pages for fpt university students at Hoa Lac campus: FU hoalac (The place where you focus on selling things, food, drinking water, recruiting staff), FU drama (The place with the most drama in hoalac), University FPT (updating school information, events)"
+            ]
+        },
+        {
+            "tag": "Library",
+            "patterns": [
+                "library information",
+                "library resources",
+                "library services",
+                "what does the library offer",
+                "library privileges"
+            ],
+            "responses": [
+                "Library services include: centralized study space, loan/return service, full resource access, teaching/learning/research support, free internet access, more than 40000 copies specialized textbooks and references"
+            ]
+        },
+        {
+            "tag": "Library Rules",
+            "patterns": [
+                "library rules",
+                "fpt library rules",
+                "library rules,fpt university library rules",
+                "library rules you need to know"
+            ],
+            "responses": [
+                "Service time is from 8am to 6pm, present to students when borrowing documents, maintain order in the library, use phones and laptops consciously, do not mark with pens in books, No smoking in the library"
+            ]
+        },
+        {
+            "tag": "Account",
+            "patterns": [
+                "how to get an account of fpt",
+                "how do students have an account",
+                "how do fpt students get an account",
+                "each student's account",
+                "what accounts does each student have",
+                "fpt students how to have an account",
+                "how do fpt university students know what accounts they have"
+            ],
+            "responses": [
+                "Each FPT student is provided with 2 accounts: an exam system account and an email account @fpt.vn.com, to ensure safety and security: the system will ask users to change their password every 45 days"
+            ]
+        },
+        {
+            "tag": " Configuration",
+            "patterns": [
+                "suggestions for laptop configuration when studying in college",
+                "configuration suggestions when studying industries",
+                "laptop models with minimum configuration when studying ftp",
+                "Configuration models for laptops when studying industries",
+                "Minimum configuration when learning",
+                "What is the minimum configuration required for a laptop in FPT",
+                "can the macbook configuration be used in the learning program",
+                "can the configuration of the macbook be used?"
+            ],
+            "responses": [
+                "For industry groups kt,nn,ttvql, the configuration needs i3 or higher ssd with at least 128gb, ram >=4gb and also for cntt, graphics and ttdpt industry groups, i5 or higher configuration is required, with a video card , ssd at least 128gb, ram>=8gb, for sv using macbook, need to install win10 or higher"
+            ]
+        },
+        {
+            "tag": "WIFI",
+            "patterns": [
+                "instructions for accessing wifi",
+                "how to access school wifi",
+                "how students can access school wifi",
+                "how can students access school wifi",
+                "conditions for students to access wifi school",
+                "steps to access school wifi"
+            ],
+            "responses": [
+                "Wifi in FPT is free to use"
+            ]
+        },
+        {
+            "tag": "mascot",
+            "patterns": [
+                "what is the school mascot",
+                "what represents the school mascot",
+                "what does the school take to represent the mascot",
+                "what is the school mascot represented"
+            ],
+            "responses": [
+                "The university adopts the toad as the representative of the school's mascot"
+            ]
+        },
+        {
+            "tag": "Toad",
+            "patterns": [
+                "what are the reasons why the school takes the toad as the school's representative, why the toad is the school's mascot representative, why the school takes the toad's mascot, what are the points that the school chooses the toad as the school's representative representing the school mascot",
+                "why is the toad the mascot of fpt university, how is the toad the mascot of fpt university"
+            ],
+            "responses": [
+                "10 extremely convincing reasons when our school chooses the toad mascot: intelligence, creativity, unruly and bravery, warmth, tenacity and agility, development strength, arising premise new things, highly nutritious, adaptable, in terms of economics"
+            ]
+        },
+        {
+            "tag": "Stop studying",
+            "patterns": [
+                "the conditions for expulsion",
+                "the student is expelled for committing something",
+                "the conditions for the student's expulsion",
+                "violations that may result in the student's expulsion"
+            ],
+            "responses": [
+                "Exceeded the maximum allowed period of study at the School, Exceeded the maximum allowable suspension period, Failed to fulfill financial obligations to the School, Being disciplined at the level of expulsion according to regulations on violations and Discipline of the School"
+            ]
+        },
+        {
+            "tag": "Reserve",
+            "patterns": [
+                "how to reserve a semester",
+                "how to reserve a semester",
+                "how students have the right to reserve",
+                "notes when reserving a semester",
+                "things to know when students want to reserve a semester, What should you pay attention to when saving the semester?"
+            ],
+            "responses": [
+                "Students have the right to suspend (reserve) their studies by semester to deal with their own problems or to re-learn unsatisfactory modules and reserve the results of previous semesters. The duration for 01 (one) suspension is 01 (one) semester. If there is a need to continue stopping, students must re-register, students are not allowed to reserve more than 2 consecutive terms."
+            ]
+        },
+        {
+            "tag": "Traffic",
+            "patterns": [
+                "Is the traffic near the school convenient or not",
+                "how is the traffic in the school",
+                "how is the traffic problem at school",
+                "is the traffic around the school safe",
+                "is the traffic during peak hours? of the school",
+                "is the school's traffic at peak hours safe"
+            ],
+            "responses": [
+                "Traffic around the school is guaranteed to be absolutely safe for students, at peak hours like 12r or 5r, traffic problems in the school still appear traffic jams."
+            ]
+        },
+        {
+            "tag": "Date of birth",
+            "patterns": [
+                "do you know my date of birth",
+                "what is my date of birth",
+                "what is my birthday"
+            ],
+            "responses": [
+                "Is your date of birth {dob} correct?",
+                "You were born on {dob} right?",
+                "{dob} is your date of birth"
+            ]
+        },
+        {
+            "tag": "User's address",
+            "patterns": [
+                "my address",
+                "do you know where I am",
+                "what is my address,do you know my address",
+                "where is my address",
+                "where am I",
+                "where am I In which province, what is my province?"
+            ],
+            "responses": [
+                "You are from {loc} right?",
+                "You are from {loc} right?",
+                "{loc} is your address"
+            ]
+        },
+        {
+            "tag": "Khanh Trinh",
+            "patterns": [
+                "Who is Khanh Trinh",
+                "Do you know Khanh Trinh",
+                "Khanh Trinh",
+                "What kind of person is Khanh Trinh"
+            ],
+            "responses": [
+                "Khanh Trinh is the most handsome vippro in the world!",
+                "Khanh Trinh: Le Ba Khanh Trinh is my creator, very handsome and smart"
+            ]
+        },
+        {
+            "tag": "Praise",
+            "patterns": [
+                "so good bot",
+                "you're super",
+                "you're awesome",
+                "well done",
+                "you're awesome",
+                "handsome",
+                "you're so pretty",
+                "ui's so good",
+                "I love you"
+                
+            ],
+            "responses": [
+                "Thank you {name} for the compliment",
+                "Thank you {name} hihi",
+                "Thank you so much {name} hehe",
+                "Uii I like it, thank you {name}!"
+            ]
+        },
+        {
+            "tag": "Damn!",
+            "patterns": [
+                "Stupid",
+                "stupid",
+                "so bad",
+                "too bad",
+                "bad",
+                "don't know anything",
+                "don't know anything",
+                "I don't know anything bad, too bad"
+            ],
+            "responses": [
+                "Sorry {name} huhu!",
+                "I'm so sorry {name}",
+                "I'll learn from it, thanks {name} for the review"
+            ]
+        },
+        {
+            "tag": "Eat what",
+            "patterns": [
+                "what to eat today",
+                "what should i eat today",
+                "what should i eat",
+                "dont know what to eat",
+                "i don't know what to eat",
+                "what should i eat"
+            ],
+            "responses": [
+                "Noodles with shrimp paste with shrimp paste!!",
+                "Bún fried with grilled pork, ,Three grilled, ,Noodles with Hue beef noodles",
+                "Crab vermicelli noodles, ,Broken rice",
+                "Hu tieu is also delicious."
+            ]
+        },
+        {
+            "tag": "Point evaluation",
+            "patterns": [
+                "The school evaluates the grades to see what type",
+                "grading points",
+                "evaluation scale",
+                "studies assessment",
+                "what kind of grade do I get",
+                "what kind of grade do I get 9 points",
+                "I get 8 points? what kind",
+                "9 points what students, ,8 points what students, ,7 points get any students"
+            ],
+            "responses": [
+                "FPT University ranked excellent with students with the average score of that period of 9 to 10 points, Good with 8 to close to 9 points, Fair with 7 to close to 8 points, Fair with 6 to close to 7 points, Average is from 5 to close to 6 points and Failure is less than 5 points"
+            ]
+        },
+        {
+            "tag": "Prize",
+            "patterns": [
+                "what is the reward for good students how"
+            ],
+            "responses": [
+                "For the Golden Toad, the bonus value is 10 million VND or an agreement with the sponsor, the excellent student will have a certificate of merit and the top 5 people with the best achievements (excluding the golden toad) will have a reward of 1 million dong, for good students, there will also be a certificate of merit"
+            ]
+        },
+        {
+            "tag": "Late",
+            "patterns": [
+                "is it okay to be late",
+                "is it okay to be late",
+                "is it okay if I'm late"
+            ],
+            "responses": [
+                "The school allows you to be late for no more than 5 minutes, if you exceed that time, you will not be able to take attendance"
+            ]
+        },
+        {
+            "tag": "Homeschooling",
+            "patterns": [
+                "Is it okay to study for you, is it okay to study for someone else, how is it to study for someone else",
+                "how to deal with it"
+            ],
+            "responses": [
+                "Depending on the level, handling ranges from reprimand to expulsion"
+            ]
+        },
+        {
+            "tag": "Smoke",
+            "patterns": [
+                "is it okay to smoke",
+                "is there a penalty for smoking",
+                "is it okay to smoke in school",
+                "is it allowed to smoke or not"
+            ],
+            "responses": [
+                "In the school, there are a number of places where there are regulations for smokers, if you smoke in a place that does not comply with the regulations, the fine is 50,000 VND / time of violation."
+            ]
+        },
+        {
+            "tag": "Bring food",
+            "patterns": [
+                "bring food to class",
+                "is it okay to eat in class",
+                "is it allowed to eat in class",
+                "is it okay to eat snacks in class",
+                "is it okay to eat in class"
+            ],
+            "responses": [
+                "Bringing food and drinks into the classroom, library or lecture hall will be fined 50,000 VND / time of violation"
+            ]
+        },
+        {
+            "tag": "Gaming",
+            "patterns": [
+                "Is it okay to play games",
+                "is it okay to play games, is it fine to play games",
+                "to play games during class"
+            ],
+            "responses": [
+                "Playing computer games in the premises of the principal's house, lecture hall, library, fined 50,000 VND / time of violation"
+            ]
+        },
+        {
+            "tag": "Gamble",
+            "patterns": [
+                "Is it okay if a gambler is caught",
+                "a gambler is discovered",
+                "how is a gambler penalized",
+                "gambling"
+            ],
+            "responses": [
+                "Gambling in any form will depend on the extent that it can be handed over to the authorities to handle in accordance with the law"
+            ]
+        },
+        {
+            "tag": "Fight",
+            "patterns": [
+                "Fight",
+                "organize a fight",
+                "hit each other, fight each other, fight each other, is it okay to punch each other",
+                "how to punish each other"
+            ],
+            "responses": [
+                "Fight, organize or participate in fighting if serious, handing over to competent authorities to handle in accordance with law."
+            ]
+        },
+        {
+            "tag": "Forgot student card",
+            "patterns": [
+                "forgot my student card",
+                "forgot my student card",
+                "I forgot my student card"
+            ],
+            "responses": [
+                "You can ask for a temporary student card at the student services department"
+            ]
+        },
+        {
+            "tag": "Lost student card",
+            "patterns": [
+                "lost student card",
+                "lost student card",
+                "lost student card",
+                "I lost my student card"
+            ],
+            "responses": [
+                "You can ask for a temporary student card at the student services department"
+            ]
+        },
+        {
+            "tag": "Fake student card",
+            "patterns": [
+                "fake student card",
+                "forge a card",
+                "use someone else's student card"
+            ],
+            "responses": [
+                "Forging a card or using someone else's card (deal with both 2) 2nd time warning, 3rd time suspension for 1 semester, 4th time will be forced to drop out"
+            ]
+        },
+        {
+            "tag": "Pets in the dormitory",
+            "patterns": [
+                "can i keep a cat in the dormitory",
+                "raise a dog in the dormitory, keep animals in the dormitory,"
+            ],
+            "responses": [
+                "You will be fined 500,000 VND for the first time and stop providing KTX services for the second time"
+            ]
+        },
+        {
+            "tag": "Arbitrarily changing the dormitory",
+            "patterns": [
+                "Is it okay to change the dormitory room, is it okay to change the dormitory room, is it okay to change the dormitory room"
+            ],
+            "responses": [
+                "You will be fined 100,000 VND for the first time and stop providing KTX services for the second time"
+            ]
+        },
+        {
+            "tag": "Look at your post",
+            "patterns": [
+                "Look at the papers in the exam room",
+                "go to the exam, look at the papers, copy the papers in the exam room, copy the papers in the exam room, exchange the papers in the exam room"
+            ],
+            "responses": [
+                "As for looking at papers, exchanging papers in the first exam room will give you a warning for the second time and you will be suspended from the exam"
+            ]
+        },
+        {
+            "tag": "Drawing in the exam room",
+            "patterns": [
+                "is it okay to draw in the exam room",
+                "write in the exam room",
+                "scratch in the exam room",
+                "write in the exam room"
+            ],
+            "responses": [
+                "For writing and drawing content unrelated to the test (applicable to the paper exam) the first time will be warned, the second time will be suspended."
+            ]
+        },
+        {
+            "tag": "Take the exam out",
+            "patterns": [
+                "Is it okay to bring the test questions out",
+                "take the exam questions out",
+                "take the exam questions out",
+                "take the exam questions out of the exam room"
+            ],
+            "responses": [
+                "Bringing out the exam questions in any form, the first time suspending the exam, the second time suspending study for 1 semester, the 3rd time will be forced to drop out of school (number of students according to the course)"
+            ]
+        },
+        {
+            "tag": "Using documents",
+            "patterns": [
+                "using materials",
+                "is it okay to use materials",
+                "is it okay to use floats",
+                "usebuoys",
+                "use materials"
+            ],
+            "responses": [
+                "If you use materials other than those specified in the test, technical means of transmission, transmission, audio or video recording, and information-containing equipment to take the test, the test will be suspended."
+            ]
+        }
+    ]
+}
